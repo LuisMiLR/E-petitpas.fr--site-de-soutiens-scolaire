@@ -1,0 +1,852 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;600&display=swap'); 
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Heebo",sans-serif;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.imgLogo {
+    height: 65px;
+    margin-right: 370px;
+    margin-top: 6px;
+}
+
+nav .onglets {
+    margin-left: 200px; 
+}
+
+nav .onglets a {
+    font-family: "Heebo",sans-serif;
+    text-decoration: none;
+    color: black;
+    margin-right: 12px; 
+}
+
+nav .onglets a:hover {
+    text-decoration:none;
+    background-color: #09a7ce;
+    padding-top: 29px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-left:20px;
+    padding-bottom: 27px;
+}
+/* -----------------------header---------------------------------- */
+.banniereTop { 
+    display: flex;
+    background-image: linear-gradient(135deg, #09a7ce 0%, #182542 100%);  
+    /* width: auto;  */
+}
+
+.banTopLeft{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    color: rgb(10, 09, 09);
+    width: 55%;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.banTopLeft h1{
+    display: flex; 
+    font-size: 90px;
+    color: rgb(24, 24, 24); 
+}
+
+.banTopLeft h2{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: rgb(37, 36, 36); 
+}
+
+.banTopLeft p {
+    font-size: 20px;
+    color: rgb(37, 36, 36);
+}
+
+.banTopRight{ 
+    display: flex; 
+    width: 45%;
+    /* flex-wrap: wrap; */
+    justify-content: center; 
+    align-content: space-between;
+} 
+
+.imgPeches {
+    margin-right: 18px;    
+}
+
+.imgJaune { 
+    margin-right: 18px;
+}
+
+/* ------------section1--------------- */
+
+.valoBuz { 
+    display: flex; 
+    flex-direction:row; 
+    justify-content: center;
+    width: 100%;
+    margin-top: 40px;
+    padding-bottom: 30px;
+    
+} 
+/*------ premier bloc /section 1 ------*/
+.blocCarteLeft{
+    display: flex;
+    flex-direction:row ;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 50%;
+    margin-top: 30px;
+    margin-left: 30px; 
+}
+
+.carteArguLeft{ 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+}
+.carteArguLeft .h3 {
+    padding-bottom: 20px;
+}
+
+/* -----deuxième bloc /section 1------ */
+
+.blocCarteRight{
+    display: flex;
+    flex-direction:row ;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 50%;
+    margin-top: 30px;
+    margin-left: 0px; 
+    margin-right: 60px;
+    }
+
+.carteArguRight{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    width: 50%;
+}
+.imgBuz1 {
+    width: 300px;
+}
+
+.imgBuz2 {
+    width:350px;
+}
+/* ---------------section 2 --------------- */
+
+.section2 h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.section2 h3  {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.section2 p {
+    display: flex;
+    justify-content: center;
+  
+}
+
+.rowFormatCoursBlock { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background:#e4f3f9; 
+    margin-top: 40px;
+    margin-bottom: 30px;
+  
+}
+
+.colSlideCours1 { 
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    width: 265px;
+    height: 375px;
+    margin-top: 40px;
+    margin-bottom: 45px;
+    margin-right: 20px; 
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px 1px #2c2b2b; 
+}
+
+.formatCoursBlock1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-evenly;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+
+.cardImg {
+    display: flex;  
+    justify-content: center;
+    width: 265px;
+    height: 166.66;
+
+}
+
+.cardText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 235px;
+    margin-top: -20px;
+}
+
+.imgSlide1 {
+    width: 265px;   
+    border-radius: 5px 5px 0px 0px;
+}
+
+/* ----------------bloc 2---------------*/
+.colSlideCours2 { 
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    width: 265px;
+    height: 375px;
+    margin-top: 40px;
+    margin-bottom: 45px;
+    margin-right: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px 1px #2c2b2b;  
+ }
+
+.formatCoursBlock2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-evenly;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+
+.imgSlide2 {
+    width: 265px;
+    height: 177px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+/*---------------bloc 3-------------------*/
+.colSlideCours3 { 
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    width: 265px;
+    height: 375px;
+    margin-top: 40px;
+    margin-bottom: 45px;
+    margin-right: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px 1px #2c2b2b; 
+}
+
+.formatCoursBlock3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-evenly;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+
+.imgSlide3 {
+    width: 265px;
+    border-radius: 5px 5px 0px 0px;  
+}
+
+
+/*-----------------bloc 4 ---------------*/
+.colSlideCours4 { 
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    width: 265px;
+    height: 375px;
+    margin-top: 40px;
+    margin-bottom: 45px;
+    margin-right: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px 1px #2c2b2b; 
+ }
+
+.formatCoursBlock4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-evenly;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+
+.imgSlide4 {
+    width: 265px;
+    border-radius: 5px 5px 0px 0px;
+  
+}
+.sousSlide{  
+     text-align: center; 
+}
+
+button {
+    font-size: 16px;
+    padding: 8px 8px;
+    margin-top: 18px;
+    margin-bottom: 8px;
+    border-radius: 02px;
+    border: none;
+}
+button a {
+    text-decoration: none;
+    color: rgb(21, 20, 20);
+  
+}
+button:hover {
+    background-color:#fad20c;
+  
+}
+    
+ /*-----------section 3 --------------------*/
+
+
+  /* ---------section 4---faq--------------  */
+.section4 {
+    display: flex; 
+    justify-content: center; 
+}
+.section4 h3{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.containerFaq{
+    font-size: 16px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    width: 80%;  
+}
+.faqTitle { 
+    font-size: 26px;
+}
+.summary
+.questfaq p{
+    display: flex;
+    flex-direction: row;
+    margin-left: 55px;
+    padding: 10px;
+    width: 1000px;
+    
+}
+details{
+    font: size 15px; ;
+    background: #09a7cec5; 
+}
+details .questFaq { 
+    color: rgb(11, 10, 10);
+    padding: 10px;
+}
+/* ---------------------footer---------------------------------------  */
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    height: 80px;
+    padding-bottom: 0px;
+    background-image: linear-gradient(135deg, #09a7ce 0%, #182542 100%);  
+    color: #fff;
+    margin-top: 40px;
+}
+footer p {
+    font-family: 'Heebo',sans-serif;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1px;
+
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+    footer a:hover { 
+    color: #fad20c; 
+    text-decoration: underline;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 15px;
+    font-size: larger;
+    justify-content: space-evenly;
+}
+/* ------------------------page Nos offres------------ section 1 -------------------- */
+
+.banTopLeft a {
+    display: flex;
+    flex-direction: column;
+    font-family: "Heebo", sans-serif;
+    color: rgb(23, 22, 22);
+    background-color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.banTopLeft a:hover { 
+    background-color:#fad20c;
+ 
+}
+
+.blocDoubleRowHight {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+    padding-top: 10px;
+    margin-bottom: 30px;
+}
+.socketparaLeft {
+    width: 700px;
+}
+.socketparaLeft h3 {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.socketparaLeft ul { 
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    margin-left: 30px;
+}
+.socketparaLeft .ic { 
+
+    list-style-image: url(images/002-angle-de-la-flche-pointant-vers-la-droite-1.png); 
+    background-repeat: no-repeat;
+    background-position: none; 
+    padding-left: 10px;
+    padding-right: 40px; 
+}        
+.socketRightHigh { 
+display: flex;
+flex-direction: row;
+
+}
+.imgSocketRH { 
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    margin-top: 0px;
+} 
+
+/* -------------- section 2 Nos offres de cours----------   */
+
+.section2 { 
+display: flex;
+flex-direction: column;
+background-color: #e4f3f9;
+}
+#nosOffresId {
+    margin-top: 30px; 
+}
+#nosOffreId p {
+    font-size: 25px;
+    font-weight: bold;
+}
+#nosOffreId a { 
+    padding-left: 40px;
+}
+
+.blockPresentOffre { 
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    background-color: #e4f3f9; 
+    margin-top: 30px;
+
+}
+
+.formPresentCol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+    width: 900px;
+    margin-top: 40px;
+    margin-bottom: 40px; 
+}
+
+.arguFrm {
+    display: flex;
+    flex-direction: column;
+
+}
+.sousArgHight {
+    margin-left: 35px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+.sousArgLow {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 16px;
+}
+.cadreImg { 
+    display: flex;
+    flex-direction: flex-end;
+}
+.imgCd { 
+    width: 461px;
+    margin-top: 40px;
+}
+.sousButton { 
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    font-size: 16px;
+    width: 170px;
+    margin-top: 18px;
+    margin-left: 350px;
+    margin-bottom: 30px;
+    border-radius: 2px;
+    border: none;
+}
+
+.sousButton a {
+    text-decoration: none;
+    color: rgb(21, 20, 20);
+    display: flex;
+    justify-content: center;
+    padding-left: 15px;
+    
+    
+}
+.sousButton:hover {
+    background-color:#fab60c;     
+}
+
+/*----------------------------- page 3 --- Je me renseigne ---------------*/
+.section1_JeMeRenseigne{
+background-color: #f1f4fa; 
+margin-top: 50px;   
+}
+
+.globalTextsect1 {
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    padding-top: 40px;
+}
+.globalTextsect1 h1 {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.globalTextsect1 .paraTextSect1 {
+font-size: 16px;
+margin-bottom: 15px;
+}
+.containerFrmIllus {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    margin-left: 160px;
+    margin-right: 20px;    
+}
+.illustrationFormulaire {
+    display: flex; 
+    flex-direction: row;
+    margin-bottom: 30px;
+    width: 60%;
+}
+.filleInscrip {
+    border-radius: 30px 0px 0Px 30px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+    background-color: #fff; 
+    width: 30%;
+    padding: 20px;
+    border-radius:0px 30px 30px 0px;
+    margin-bottom: 30px;
+}
+
+form h1 {
+    font-size: 25px;
+    margin-top: 20px;
+}
+form .separation {
+    width: 100%;
+    height: 2px;
+    background-color: #10a0c5;
+}
+form .corps-formulaire {
+     margin-bottom: 15px;
+}
+form .corps-formulaire .boite { 
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-right: 100px;
+    
+}
+form .corps-formulaire .boite6 textarea {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-right: 100px;
+    resize: none;
+}
+.boite6  {
+    margin-top: 30px;
+}
+.input {
+    margin-top: 55px;
+    padding: 20px;  
+}
+.pied-formulaire { 
+    margin-top: 5px;
+
+}
+.apresFrmIllus {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+/* -------------------  Page La pédagogie e-pps section 1 ------------------ */
+
+.containTitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+}
+.middleContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.cardImgP { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 400px;
+}
+.cardImgV{ 
+    display: flex;
+    flex-direction: column;
+}
+.imgSommesNous {
+    width: 300px;
+}
+.dirigieantV {
+    display: flex;
+    
+}
+
+.cardTextP {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 60%; 
+    padding-left: -20px;    
+}
+
+/*----------------   page login   --------------- */
+
+.section1_connexion{
+    background-color: #f1f4fa; 
+    margin-top: 50px;   
+}
+.globalTextsect1C {
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    padding-top: 40px;
+}
+.globalTextsect1C h1 {
+    font-size: 30px;
+    padding-bottom: 20px;
+
+}
+.containerFrmIllus2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%; 
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;    
+}
+
+.illustrationFormulaire2 {
+    display: flex; 
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+    width: 80%;
+}
+.profElevesConnexion {
+    width: 80%;
+    border-radius: 30px 0px 0Px 30px;
+
+}
+.formConnexion {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff; 
+    width: 30%;
+    padding: 20px;
+    border-radius:0px 30px 30px 0px;
+    margin-bottom: 30px;
+}
+
+.forConnexion h1 { 
+    font-size: 25px;
+    margin-top: 20px;
+}
+.corps-formulaire2 {
+    margin-bottom: 15px;
+}
+
+.corps-formulaire2 .boiteC { 
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-right: 100px;     
+}
+
+.input {
+    margin-top: 55px;
+    padding: 20px;  
+}
+
+
+
+/* ----------------   responsive   ----------------  */
+@media screen and (max-width: 1150px)  {
+    .logo {
+        width: 40%;
+    }
+    .imgLogo {
+        display: flex;
+        flex-wrap: wrap;
+        width: auto;
+        /* height: 65px; */
+        /* margin-right: 370px; */
+        margin-top: 6px;
+    }
+    
+    /* nav .onglets { */
+        /* margin-left: 200px;  */
+    /* } */
+    
+.banniereTop {
+    width: 100%;
+    flex-wrap: wrap;
+}
+.banTopLeft {
+    display: flex;
+    flex-direction: column;
+    font-size: 2em;
+    flex-wrap: wrap;
+    color: rgb(24, 24, 24); 
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+.banTopRight{ 
+    display: flex; 
+    width: 45%;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-content: space-between;
+} 
+.valoBuz {
+    margin-top: 20px;
+    width: 100%;
+}
+.blocCarteLeft{
+    display: flex;
+    flex-direction:row ;
+    width: 50px;
+    margin-top: 30px;
+    margin-left: 0px; 
+}
+}
