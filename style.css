@@ -626,7 +626,6 @@ margin-bottom: 15px;
 form {
     display: flex;
     flex-direction: column;
-    /* justify-content: flex-end; */
     background-color: #fff; 
     width: 30%;
     padding: 20px;
@@ -669,6 +668,7 @@ form .corps-formulaire .boite6 textarea {
 }
 .pied-formulaire { 
     margin-top: 5px;
+    margin-right: 50px;
 
 }
 .apresFrmIllus {
@@ -781,20 +781,35 @@ form .corps-formulaire .boite6 textarea {
     font-size: 25px;
     margin-top: 20px;
 }
+
 .corps-formulaire2 {
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 
 .corps-formulaire2 .boiteC { 
     display: flex;
     flex-direction: column;
     margin-top: 30px;
-    margin-right: 100px;     
+    margin-right: 80px;     
 }
 
 .input {
     margin-top: 55px;
     padding: 20px;  
+}
+
+.pied-formulaire2 { 
+    margin-top: 0px;
+    margin-bottom: 40%;
+    margin-right: 50px;
+}
+
+.mdpo {
+    margin-right: 10%;
+    font-family: "Heebo", sans-serif ;
+    font-weight: lighter;
+    color: rgb(112, 109, 109);
+    
 }
 
 
