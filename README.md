@@ -21,7 +21,7 @@ https://luismilr.github.io/E-petitpas.fr--site-de-soutiens-scolaire/
 
 ![Capture d'écran du jeu](epetitpasScreen.png)
 
-**Auteur :** [LuisMiLR]
-**Date de création :** [08.12.2022]
+**Auteur :** LuisMiLR
+**Date de création :** 08.12.2022
 
 
